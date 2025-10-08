@@ -135,7 +135,7 @@ export default function ImageViewerPanel() {
                 : 'bg-elevated-surface text-text-secondary hover:bg-hover-state'
             )}
           >
-            <SplitVertical size={18} />
+            <Columns size={18} />
             Compare with Prior
           </button>
 
