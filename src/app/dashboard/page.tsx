@@ -167,7 +167,7 @@ export default function DashboardPage() {
             <div className="bg-elevated-surface border border-border-color rounded-lg p-6">
               <h3 className="text-h4 text-text-primary mb-4">Quick Start</h3>
               <p className="text-body text-text-secondary mb-4">
-                Click on the <span className="font-semibold text-text-primary">X-Ray Analysis</span> card above to begin analyzing chest radiographs with AI-powered diagnostic assistance.
+                Access the X-Ray Analysis workspace to upload new studies or review existing cases with AI-powered diagnostic assistance.
               </p>
               <div className="flex gap-4">
                 <button
