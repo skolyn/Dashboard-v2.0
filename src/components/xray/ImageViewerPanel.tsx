@@ -12,7 +12,7 @@ import {
   ArrowCounterClockwise,
   Sliders,
   Eye,
-  SplitVertical,
+  Columns,
 } from 'phosphor-react'
 import { cn } from '@/lib/utils'
 
