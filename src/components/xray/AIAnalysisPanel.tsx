@@ -180,7 +180,7 @@ export default function AIAnalysisPanel() {
                 <WarningCircle size={24} weight="fill" className="text-critical-red flex-shrink-0 mt-0.5" />
                 <div>
                   <h3 className="text-body font-semibold text-critical-red mb-1">
-                    🚨 CRITICAL FINDING
+                    CRITICAL FINDING
                   </h3>
                   <p className="text-body-small text-text-secondary">
                     Potential {findings.find((f) => f.confidence >= 85)?.pathology} detected with high confidence.
@@ -200,7 +200,7 @@ export default function AIAnalysisPanel() {
                 <WarningCircle size={24} weight="fill" className="text-warning-amber flex-shrink-0 mt-0.5" />
                 <div>
                   <h3 className="text-body font-semibold text-warning-amber mb-1">
-                    ⚠ FINDINGS DETECTED
+                    FINDINGS DETECTED
                   </h3>
                   <p className="text-body-small text-text-secondary">
                     AI has identified {highConfidenceFindings.length} potential {highConfidenceFindings.length === 1 ? 'pathology' : 'pathologies'} requiring review.
