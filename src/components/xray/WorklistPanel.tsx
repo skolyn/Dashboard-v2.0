@@ -73,7 +73,7 @@ export default function WorklistPanel() {
   }
 
   return (
-    <div className="w-80 h-full bg-secondary-bg border-r border-border-color flex flex-col">
+    <div className="h-full flex flex-col">
       {/* Header */}
       <div className="p-4 border-b border-border-color">
         <h2 className="text-h4 text-text-primary mb-4">Worklist</h2>
