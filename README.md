@@ -148,7 +148,7 @@ const config = {
 
 ## 📝 License
 
-© 2024 Skolyn AB - All Rights Reserved
+© 2025 Skolyn LLC - All Rights Reserved
 
 ---
 
